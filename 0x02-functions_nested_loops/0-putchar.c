@@ -8,13 +8,14 @@
 */
 int main(void)
 {
-	_putchar();
+	char str[] = "_putchar";
+	int put;
+
+	for (put = 0; put < 8; ch++)
+		_putchar(str[ch]);
+	_putchar("\n");
+
 	return (0);
 }
 
-void _putchar(void)
-{
-	printf("_putchar\n");
-
-}
 
