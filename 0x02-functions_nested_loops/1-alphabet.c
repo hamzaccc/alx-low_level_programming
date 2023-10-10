@@ -5,6 +5,7 @@
  *	the alphabet a - z
  *	Return: 0 (success)
 */
+
 int print_alphabet(void)
 {
 	int ch;
