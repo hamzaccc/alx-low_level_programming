@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_tringle - prints a tringle
+ * print_triangle - prints a tringle
  *
  * @size: size of the triangle
  *
