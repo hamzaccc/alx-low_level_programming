@@ -1,4 +1,5 @@
 #include "main.h"
+
 #include <stdio.h>
 
 /**
@@ -6,6 +7,7 @@
  * @s1: pointer to first string
  * @s2: pointer to 2nd string
  * @n: number of bytes from n2 to concatenate
+ *
  * Return: pointer to space in memory containing concatenated string
 */
 
@@ -24,6 +26,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	for (s2_length = 0; s2[s2_ length] != '\0'; s2_length++)
 		;
+
 	str = malloc(s1_length + n + 1);
 	if (str == NULL)
 	{
