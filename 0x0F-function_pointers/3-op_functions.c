@@ -14,7 +14,7 @@ int op_add(int a, int b)
 }
 
 /**
- * op_sub - sub two integers
+ * op_sub - sutbracts two integers
  * @a: the first int
  * @b: the second int
  *
@@ -27,7 +27,7 @@ int op_sub(int a, int b)
 }
 
 /**
- * op_mul - mul two integers
+ * op_mul - multiplies two integers
  * @a: the first int
  * @b: the second int
  *
@@ -64,4 +64,3 @@ int op_mod(int a, int b)
 {
 	return (a % b);
 }
-~
