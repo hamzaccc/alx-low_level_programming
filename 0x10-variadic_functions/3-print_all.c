@@ -8,7 +8,7 @@
 
 void format_char(char *separator, va_list ap)
 {
-	printf("%s%d", separator, va_arg(ap, int));
+	printf("%s%c", separator, va_arg(ap, int));
 }
 
 /**
