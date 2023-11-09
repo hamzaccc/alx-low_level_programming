@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 
 /**
- *  print_strings -  prints strings, followed by a new line.
+ *  print_strings -  prints strings with separator
  *  @separator: the string separator
  *  @n: the number of agruments
  *  @...: the strings to print
