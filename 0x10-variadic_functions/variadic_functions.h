@@ -10,6 +10,7 @@
  * @token: format token
  * @f: the function associated
 */
+
 typedef struct token
 {
 	char *token;
